@@ -1,12 +1,47 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --link-bg-image: url("../images/cover-image-dark.png");
+  --main-color: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --text-accent-color: rgba(241, 178, 206, 1);
+}
+
+html.theme-light {
+  --link-bg-image: url("../images/cover-image-dark.png");
+  --main-color: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --text-accent-color: rgba(241, 178, 206, 1);
+}
+
+html.theme-auto {
+  --link-bg-image: url("../images/cover-image-dark.png");
+  --main-color: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --text-accent-color: rgba(241, 178, 206, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root.theme-auto {
+    --link-bg-image: url("../images/cover-image-dark.png");
+    --main-color: rgba(0, 0, 40, 1);
+    --accent-color: rgba(255, 0, 112, 1);
+    --title-color: rgba(219, 0, 255, 1);
+    --text-accent-color: rgba(241, 178, 206, 1);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root.theme-dark {
+    --link-bg-image: url("../images/cover-image-dark.png");
+    --main-color: rgba(0, 0, 40, 1);
+    --accent-color: rgba(255, 0, 112, 1);
+    --title-color: rgba(219, 0, 255, 1);
+    --text-accent-color: rgba(241, 178, 206, 1);
+  }
+
+  .main__content h3 {
+    color: var(--accent-color);
+  }
 }
