@@ -1,13 +1,13 @@
-html.theme-dark {
-  :root {
-    --link-bg-image: url("../images/cover-image-dark.png");
-    --main-color: rgba(0, 0, 40, 1);
-    --accent-color: rgba(255, 0, 112, 1);
-    --title-color: rgba(219, 0, 255, 1);
-    --button-hover: rgba(255, 0, 112, 0.4);
-    --text-accent-color: rgba(241, 178, 206, 1);
-  }
+:root.theme-dark {
+  --link-bg-image: url("../images/cover-image-dark.png");
+  --main-color: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --text-accent-color: rgba(241, 178, 206, 1);
+}
 
+html.theme-dark {
   .main__content h3 {
     color: var(--accent-color);
   }
