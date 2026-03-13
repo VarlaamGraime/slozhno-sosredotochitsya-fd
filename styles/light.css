@@ -44,7 +44,7 @@ html.theme-light {
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto  {
+  :root.theme-auto {
     --link-bg-image: url("../images/cover-image-light.png");
     --main-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
@@ -52,8 +52,8 @@ html.theme-light {
     --button-hover: rgba(255, 0, 112, 0.4);
     --text-accent-color: rgba(53, 52, 48, 1);
   }
-  
-  :root  {
+
+  :root {
     --link-bg-image: url("../images/cover-image-light.png");
     --main-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
@@ -80,7 +80,7 @@ html.theme-light {
       border-bottom: 1px solid var(--main-color);
       border-left: 1px solid var(--main-color);
     }
-    
+
     .header__theme-menu-button_active {
       border: 1px solid var(--main-color);
     }
