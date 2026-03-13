@@ -44,7 +44,16 @@ html.theme-light {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root.theme-auto  {
+    --link-bg-image: url("../images/cover-image-light.png");
+    --main-color: rgba(53, 52, 48, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --title-color: rgba(255, 194, 230, 1);
+    --button-hover: rgba(255, 0, 112, 0.4);
+    --text-accent-color: rgba(53, 52, 48, 1);
+  }
+  
+  :root  {
     --link-bg-image: url("../images/cover-image-light.png");
     --main-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
