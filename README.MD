@@ -1,1 +1,1 @@
-https://github.com/VarlaamGraime/posmotri-v-okno-fd
+https://github.com/VarlaamGraime/slozhno-sosredotochitsya-fd
