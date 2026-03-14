@@ -1,1 +1,0 @@
-https://github.com/VarlaamGraime/slozhno-sosredotochitsya-fd
