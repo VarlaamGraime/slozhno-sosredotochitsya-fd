@@ -9,7 +9,7 @@
 
 html.theme-light {
   body {
-    background-color: rgba(255, 141, 203, 1);
+    background-color: rgba(255, 194, 230, 1);
   }
   .main__content h3 {
     color: var(--main-color);
