@@ -1,5 +1,5 @@
 body {
-  background-color: var(--main-color);
+  background-color: var(--bg-color);
 }
 
 .page {
@@ -423,10 +423,6 @@ h2 span {
 
 /* Светлые стили */
 
-.theme-light body {
-  background-color: rgba(255, 194, 230, 1);
-}
-
 .theme-light .header__decor-span {
   display: none;
 }
@@ -437,10 +433,6 @@ h2 span {
 
 .theme-light .header__theme-menu-button:hover {
   outline: 1px solid var(--main-color);
-}
-
-.theme-light .header__decor-span {
-  display: none;
 }
 
 .theme-light .decorated-zone::after {
