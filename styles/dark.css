@@ -12,6 +12,7 @@
   display: flex;
 }
 
+ 
 .theme-dark .main__content-reverse-title,
 .theme-dark .main__content-subtitle,
 .theme-dark .header__theme-menu-button:hover,
@@ -23,4 +24,5 @@
 .theme-dark .main__content .main__content-title-picture {
   --main-color: rgba(0, 0, 40, 1);
   --accent-color: rgba(255, 0, 112, 1);
+  --button-hover: rgba(255, 0, 112, 0.4);
 }
